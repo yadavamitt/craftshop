@@ -29,7 +29,7 @@ const ContactPage: React.FC = () => {
                                 name="name" 
                                 placeholder="Enter your full name"
                                 required
-                                className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-accent focus:border-transparent transition-colors duration-300" 
+                                className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-brand-dark placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent transition-colors duration-300" 
                             />
                         </div>
                         <div>
@@ -40,7 +40,7 @@ const ContactPage: React.FC = () => {
                                 name="email" 
                                 placeholder="you@example.com"
                                 required
-                                className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-accent focus:border-transparent transition-colors duration-300" 
+                                className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-brand-dark placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent transition-colors duration-300" 
                             />
                         </div>
                         <div>
@@ -51,7 +51,7 @@ const ContactPage: React.FC = () => {
                                 rows={5} 
                                 placeholder="Tell us how we can help..."
                                 required
-                                className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-accent focus:border-transparent transition-colors duration-300"
+                                className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-brand-dark placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent transition-colors duration-300"
                             ></textarea>
                         </div>
                         <div>
